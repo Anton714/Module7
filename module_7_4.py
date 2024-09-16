@@ -8,25 +8,17 @@ tasks_total = 82
 time_avg = 45.2
 challenge_result = 'Кто то должен победить!!!'
 
-
 print("В команде Мастера кода участников: %s!" % (team1_num))
 print("В команде Волшебники данных участников: %s!" % (team2_num))
 print("Итого сегодня в командах участников: %s и %s!" % (team1_num, team2_num))
-
-
 
 print('Команда Волшебники данных решила задач: {}!'.format(score1))
 print('Команда Мастера кода решила задач: {}!'.format(score2))
 print('Волшебники данных решили задачи за {}!'.format(team1_time))
 print('Мастера кода решили задачи за {}!'.format(team2_time))
 
-
-
-
 print(f'Команды решили {score1} и {score2} задач.')
 print(f'Сегодня было решенно {tasks_total} задач, в среднем по {time_avg} секунды на задачу!')
-#print(f'Результат битвы: {challenge_result}')
-
 
 if score1 > score2 or score1 == score2 and team1_time > team2_time:
     challenge_result = 'Победа команды Мастера кода!'
